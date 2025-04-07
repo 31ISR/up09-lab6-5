@@ -58,7 +58,7 @@ class Note extends Model
         </div>
     @endsession
 
-    {{ @slot }}
+    {{ $slot }}
 ```
 
 - @session('message') — Blade-директива, проверяющая наличие флеш-сообщения message в сессии.
